@@ -9,3 +9,52 @@
         <li>Discovery</li>
     </ol>
 </center>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer Testimonials | Harry and Harriet’s Hang-gliding Haven</title>
+    <style>
+        body { background-color: skyblue; color: #0e3768; font-family: Arial, sans-serif; }
+        .testimonial { font-size: 1.1em; }
+        .highlight { font-weight: bold; text-decoration: underline; font-style: italic; }
+        .contact-link { color: blue; }
+        .dynamic-date { font-size: 0.9em; color: #20124d; }
+    </style>
+</head>
+<body>
+
+<h1>Customer Testimonials</h1>
+
+<p>Read through the experiences of our thrilled customers!</p>
+
+<ol class="testimonial">
+    <li>
+        <p>"My first hang-gliding experience was <span class="highlight">absolutely breathtaking</span>. Harry and Harriet's instructors made me feel completely safe." - Jane Doe</p>
+    </li>
+    <li>
+        <p>"I've always been scared of heights, but the team encouraged me and now I can't wait to go again! <span class="highlight">Highly recommended.</span>" - John Smith</p>
+    </li>
+</ol>
+
+<ul class="testimonial">
+    <li>"The view from above was like nothing I've ever seen. Truly a unique experience." - Emily Wright</li>
+    <li>"Their gear is top-notch, felt very secure. Plus, the staff is super friendly!" - Mike Johnson</li>
+</ul>
+
+<p>Interested in learning more about our adventures? Check out our <a href="https://www.example.com" target="_blank">blog</a> for more stories!</p>
+
+<p>Download our <a href="/safety-checklist.pdf" download="Hang-gliding Safety Checklist.pdf">Safety Checklist</a> before your next adventure.</p>
+
+<p>Questions? Feel free to <a href="mailto:example@example.com" class="contact-link">contact me</a>.</p>
+
+<img src="hang-gliding-image.jpg" alt="Exciting Hang-gliding" width="480" height="360">
+
+<div class="dynamic-date" id="date-display">The document was last modified on: </div>
+<script>
+    document.getElementById('date-display').textContent += new Date().toLocaleDateString();
+</script>
+
+</body>
+</html>
