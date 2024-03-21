@@ -48,5 +48,9 @@
     <p>Download our <a href="Paragliding.pdf" download="Hang-gliding Safety Checklist.pdf">Safety Checklist</a> before your next adventure.</p>
     <p>Have questions? Feel free to <a href="mailto:navarr42@purdue.edu" style="color: blue;">contact us</a>.</p>
 
+<script>
+document.write("<p>This document was modified on: " + document.lastModified + "</p>");
+</script>
+
 </body>
 </html>
